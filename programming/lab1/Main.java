@@ -1,5 +1,5 @@
 import java.lang.Math;
-
+import java.util.Arrays;
 
 /** 
  * Лабораторная работа №1, вариант 311805
@@ -33,6 +33,9 @@ public class Main{
         }
     }
 
+    /*
+    	2 пункт
+    */
 
 
     private static final short D_SIZE = 12;
@@ -44,6 +47,10 @@ public class Main{
     }
 
 
+    /*
+    	2 пункт
+    */
+
     private static final short X_SIZE = 10;
     private static double[] x = new double[X_SIZE];
 
@@ -52,6 +59,10 @@ public class Main{
             x[i] = getRandom(-12,13);
     }
 
+
+    /*
+    	3 пункт
+    */
 
     private static final short RESULT_HEIGHT = 12;
     private static final short RESULT_WIDTH = 10;
@@ -64,17 +75,10 @@ public class Main{
                 double k = x[j];
                 if(d[i] == 14){
                     result[i][j] = Math.sin(Math.pow(Math.log(Math.abs(k)), 2 * (Math.pow((k+1)/k, 3) + 1)));
-                }else{
-                    boolean isFound = false;
-                    for(long element : FILTER_ARRAY){
-                        if(element == d[i])
-                            isFound = true;
-                    }
-                    if(isFound){
+                }else if(Arrays.asList(FILTER_ARRAY).contains(d[i])){
                         result[i][j] = Math.log(Math.pow(Math.sin(Math.atan(Math.pow((k+0.5)/25, 2))), 2));
-                    }else{
+                }else{
                         result[i][j] = Math.asin(0.5 * Math.pow(Math.E,Math.cbrt(-Math.sqrt(Math.abs(k)))));
-                    }
                 }
             }
         }
