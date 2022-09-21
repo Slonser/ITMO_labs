@@ -21,7 +21,7 @@ public class Main{
 
     /**
      * Красиво выводит массив
-     * @param array - массив с данными для вывода
+     * @param array - double[][] с данными для вывода
      */
     public static void printArray(double[][] array){
         for(int i = 0;i < array.length;i++){
@@ -35,6 +35,7 @@ public class Main{
 
     /*
     	1 пункт
+        Создать одномерный массив a типа long. Заполнить его чётными числами от 2 до 24 включительно в порядке убывания.
     */
 
 
@@ -49,6 +50,7 @@ public class Main{
 
     /*
     	2 пункт
+        Создать одномерный массив x типа double. Заполнить его 10-ю случайными числами в диапазоне от -12.0 до 13.0.
     */
 
     private static final short X_SIZE = 10;
@@ -62,6 +64,7 @@ public class Main{
 
     /*
     	3 пункт
+        Создать двумерный массив a размером 12x10. Вычислить его элементы по формуле.
     */
 
     private static final short RESULT_HEIGHT = 12;
