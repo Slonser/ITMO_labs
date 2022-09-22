@@ -27,7 +27,10 @@ public class Main{
         for(int i = 0;i < array.length;i++){
             System.out.print("| ");
             for(int j = 0; j < array[i].length; j++){
-                System.out.printf("%8.2f | ", array[i][j]);
+		if(!Double.isNaN(array[i][j]))
+                    System.out.printf("%8.2f | ", array[i][j]);
+		else
+		    System.out.printf("%8s | ", "***");
             }
             System.out.println();
         }
