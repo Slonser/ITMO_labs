@@ -5,6 +5,7 @@ import java.util.Arrays;
  * Лабораторная работа №1, вариант 311805
  * @author Кокорин Всеволод Вячеславович, Группа R3118
  * @version 0.1
+ * @group R3118
 */
 public class Main{
 
