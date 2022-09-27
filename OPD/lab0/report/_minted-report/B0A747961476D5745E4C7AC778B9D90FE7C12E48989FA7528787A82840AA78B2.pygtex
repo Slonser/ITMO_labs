@@ -1,0 +1,33 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Подсчитать количество символов содержимого файла claydol3, }
+\PYG{c+c1}{\PYGZsh{} результат записать в файл в директории /tmp, подавить вывод ошибок доступа}
+wc \PYGZhy{}c \PYG{n+nv}{\PYGZdl{}DIR}/claydol3  \PYGZgt{}/tmp/abobus \PYG{l+m}{2}\PYGZgt{}/dev/null
+
+\PYG{c+c1}{\PYGZsh{} Вывести два последних элемента рекурсивного списка имен и атрибутов файлов в директории lab0,}
+\PYG{c+c1}{\PYGZsh{} начинающихся на символ \PYGZsq{}c\PYGZsq{},}
+\PYG{c+c1}{\PYGZsh{} список отсортировать по возрастанию даты модификации файла, подавить вывод ошибок доступа}
+ls \PYGZhy{}1trR \PYG{n+nv}{\PYGZdl{}DIR} \PYG{l+m}{2}\PYGZgt{}/dev/null \PYG{p}{|} grep \PYG{l+s+s2}{\PYGZdq{}\PYGZca{}c\PYGZdq{}} \PYG{p}{|} tail \PYGZhy{}n \PYG{l+m}{2}
+
+\PYG{c+c1}{\PYGZsh{} Вывести содержимое файлов с номерами строк в директории drowzee7,}
+\PYG{c+c1}{\PYGZsh{} исключить строки, содержащие \PYGZdq{}se\PYGZdq{},}
+\PYG{c+c1}{\PYGZsh{} регистр символов игнорировать, подавить вывод ошибок доступа}
+grep \PYGZhy{}niRv \PYG{l+s+s2}{\PYGZdq{}se\PYGZdq{}} \PYG{n+nv}{\PYGZdl{}DIR} \PYG{l+m}{2}\PYGZgt{}/dev/null
+
+
+\PYG{c+c1}{\PYGZsh{} Вывести три первых элемента рекурсивного списка имен и атрибутов файлов в директории lab0,}
+\PYG{c+c1}{\PYGZsh{} заканчивающихся на символ \PYGZsq{}9\PYGZsq{},}
+\PYG{c+c1}{\PYGZsh{} список отсортировать по возрастанию количества жестких ссылок, }
+\PYG{c+c1}{\PYGZsh{} ошибки доступа не подавлять и не перенаправлять}
+ls \PYGZhy{}Rla lab0/ \PYG{l+m}{2}\PYGZgt{}/dev/null \PYG{p}{|} grep \PYG{l+s+s2}{\PYGZdq{}9\PYGZbs{}\PYGZdl{}\PYGZdq{}} \PYG{p}{|} grep \PYGZhy{}vE \PYG{l+s+s1}{\PYGZsq{}:\PYGZdl{}|total|\PYGZca{}\PYGZdl{}|\PYGZca{}d\PYGZsq{}} \PYG{p}{|}sort \PYGZhy{}k2r \PYG{p}{|} head \PYGZhy{}n \PYG{l+m}{3}
+
+\PYG{c+c1}{\PYGZsh{} Вывести четыре последних элемента рекурсивного списка имен и атрибутов файлов в директории lab0,}
+\PYG{c+c1}{\PYGZsh{} список отсортировать по возрастанию размера,}
+\PYG{c+c1}{\PYGZsh{} подавить вывод ошибок доступа}
+ls \PYGZhy{}1lSr \PYG{n+nv}{\PYGZdl{}DIR}/**/* \PYG{l+m}{2}\PYGZgt{}/dev/null \PYG{p}{|} grep \PYGZhy{}vE \PYG{l+s+s1}{\PYGZsq{}:\PYGZdl{}|total|\PYGZca{}\PYGZdl{}|\PYGZca{}d\PYGZsq{}} \PYG{p}{|} tail \PYGZhy{}n \PYG{l+m}{4} \PYG{p}{|} sort \PYGZhy{}k \PYG{l+m}{5}
+
+\PYG{c+c1}{\PYGZsh{} Вывести содержимое файла claydol3 с номерами строк,}
+\PYG{c+c1}{\PYGZsh{} оставить только строки, содержащие \PYGZdq{}Ta\PYGZdq{},}
+\PYG{c+c1}{\PYGZsh{} регистр символов игнорировать,}
+\PYG{c+c1}{\PYGZsh{} ошибки доступа не подавлять и не перенаправлять}
+grep \PYGZhy{}ni \PYG{l+s+s2}{\PYGZdq{}Ta\PYGZdq{}} \PYG{n+nv}{\PYGZdl{}DIR}/claydol3
+\end{Verbatim}

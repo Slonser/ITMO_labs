@@ -1,0 +1,22 @@
+DIR=`pwd`/lab0
+
+
+# Create directory tree
+mkdir -p $DIR/dragonair6/espeon $DIR/dragonair6/zoroark 
+mkdir -p $DIR/dragonair6/dwebble $DIR/dragonair6/shellos
+mkdir -p $DIR/drowzee7/chimchar $DIR/drowzee7/drifblim $DIR/drowzee7/charmander
+mkdir -p $DIR/kricketot2/metapod $DIR/kricketot2/spoink
+
+# Create files
+echo "weigth=238.1 height=59.0 atk=7 def=11" > $DIR/claydol3
+echo -e "Ходы Drill\nRun Earth Power Iron Defence Iron" > $DIR/dragonair6/excadrill
+echo -e " Head Magnet Rise Sleep Talk Snore\nStealth Rock" >> $DIR/dragonair6/excadrill
+echo -e "weight=73.6 height=39.0 atk=8\ndef=5" > $DIR/dragonair6/krokorok
+echo -e "Развитые способности Analytic" > $DIR/drowzee7/staryu
+echo -e "Способности\nScratch Water Sport Tail Whip Water" > $DIR/kricketot2/psyduck
+echo -e " Gun Disable Confudion Water Pulse\nFury Swipes " >> $DIR/kricketot2/psyduck
+echo -e "Screech Zen Headbutt Aqua Tail Soak Psych" >> $DIR/kricketot2/psyduck
+echo -e " Up Amnesia Hydro\nPump Wonder Room" >> $DIR/kricketot2/psyduck
+echo "Тип диеты Omnivore" > $DIR/lillipup9
+echo -e "weigth=52.0\nheight=35.0 atk=8 def=7" > $DIR/whiscash9
+

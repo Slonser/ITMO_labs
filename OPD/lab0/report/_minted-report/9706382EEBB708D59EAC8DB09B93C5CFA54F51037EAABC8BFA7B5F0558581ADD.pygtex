@@ -1,0 +1,35 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Cкопировать файл whiscash9 в директорию lab0/kricketot2/spoink}
+\PYG{c+c1}{\PYGZsh{}Add writing rigtht}
+chmod u+w \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/spoink/
+cp \PYG{n+nv}{\PYGZdl{}DIR}/whiscash9 \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/spoink/
+\PYG{c+c1}{\PYGZsh{}Remove rights}
+chmod u\PYGZhy{}w \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/spoink/
+
+\PYG{c+c1}{\PYGZsh{} Cоздать символическую ссылку для файла claydol3 с именем lab0/kricketot2/psyduckclaydol}
+ln \PYGZhy{}s \PYG{n+nv}{\PYGZdl{}DIR}/claydol3 \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/psyduckclaydol
+
+\PYG{c+c1}{\PYGZsh{} Cоздать символическую ссылку c именем Copy\PYGZus{}77 на директорию drowzee7 в каталоге lab0}
+ln \PYGZhy{}s \PYG{n+nv}{\PYGZdl{}DIR}/drowzee7 \PYG{n+nv}{\PYGZdl{}DIR}/Copy\PYGZus{}77
+
+\PYG{c+c1}{\PYGZsh{} Cкопировать содержимое файла whiscash9 в новый файл lab0/drowzee7/staryuwhiscash}
+cat \PYG{n+nv}{\PYGZdl{}DIR}/whiscash9 \PYGZgt{} \PYG{n+nv}{\PYGZdl{}DIR}/drowzee7/staryuwhiscash
+
+\PYG{c+c1}{\PYGZsh{} Cоздать жесткую ссылку для файла lillipup9 с именем lab0/dragonair6/excadrilllillipup}
+ln \PYG{n+nv}{\PYGZdl{}DIR}/lillipup9 \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/excadrilllillipup
+
+\PYG{c+c1}{\PYGZsh{} Oбъеденить содержимое файлов lab0/kricketot2/psyduck, lab0/dragonair6/krokorok,}
+\PYG{c+c1}{\PYGZsh{} в новый файл lab0/whiscash9\PYGZus{}44}
+cat \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/psyduck \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/krokorok \PYGZgt{} \PYG{n+nv}{\PYGZdl{}DIR}/whiscash9\PYGZus{}44
+
+
+\PYG{c+c1}{\PYGZsh{} Cкопировать рекурсивно директорию dragonair6 в директорию lab0/dragonair6/dwebble}
+
+\PYG{c+c1}{\PYGZsh{}Add writing and reading rights}
+chmod u+w \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/dwebble
+chmod u+r \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/shellos
+cp \PYGZhy{}R \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/* \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/dwebble/ \PYG{l+m}{2}\PYGZgt{}/dev/null
+\PYG{c+c1}{\PYGZsh{}Remove rights}
+chmod u\PYGZhy{}w \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/dwebble
+chmod u\PYGZhy{}r \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/shellos
+\end{Verbatim}

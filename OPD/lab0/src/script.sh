@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 DIR=`pwd`/lab0
 
 if [ -n "$1" ]
@@ -30,24 +30,24 @@ fi
 if [[ $MODE == 2 ]]; then
 # Set rights
 	chmod u=rw,g=w,o= $DIR/claydol3
-	chmod 753 $DIR/dragonair6
-	chmod 577 $DIR/dragonair6/espeon
+	chmod 312 $DIR/dragonair6
+	chmod 573 $DIR/dragonair6/espeon
 	chmod 771 $DIR/dragonair6/zoroark
 	chmod 550 $DIR/dragonair6/dwebble
 	chmod u=rw,g=r,o= $DIR/dragonair6/excadrill
 	chmod 660 $DIR/dragonair6/krokorok
 	chmod 335 $DIR/dragonair6/shellos
 	chmod 373 $DIR/drowzee7
-	chmod 553 $DIR/drowzee7/chimchar
+	chmod 512 $DIR/drowzee7/chimchar
 	chmod u=wx,g=rw,o=x $DIR/drowzee7/drifblim
 	chmod 644 $DIR/drowzee7/staryu
 	chmod 335 $DIR/drowzee7/charmander
 	chmod 770 $DIR/kricketot2
-	chmod 577 $DIR/kricketot2/metapod
+	chmod 573 $DIR/kricketot2/metapod
 	chmod 400 $DIR/kricketot2/psyduck
 	chmod 577 $DIR/kricketot2/spoink
 	chmod 400 $DIR/lillipup9
-	chmod u=r,g=r,o= $DIR/whiscash9
+	chmod u=r,g=,o=r $DIR/whiscash9
 
 fi
 
@@ -74,7 +74,7 @@ if [[ $MODE == 3 ]]; then
 fi
 
 if [[ $MODE == 4 ]]; then
-	cat $DIR/claydol3 | head -c -1 | wc -c >/tmp/abobus 2>/dev/null
+	wc -c $DIR/claydol3  >/tmp/abobus 2>/dev/null
 	echo -e "----------------------------------------------------"
 	
 	ls -1trR $DIR 2>/dev/null | grep "^c" | tail -n 2 
@@ -83,17 +83,18 @@ if [[ $MODE == 4 ]]; then
 	grep -niRv "se" $DIR 2>/dev/null
 	echo -e "----------------------------------------------------"
 	
-	ls -Rla lab0/ 2>/dev/null | grep "9\$" |sort -k2r | head -n 3
+	ls -Rla lab0/ 2>/dev/null | grep "9\$" | grep -vE ':$|total|^$|^d' |sort -k2r | head -n 3
 	echo -e "----------------------------------------------------"
 	
-	ls -1lSr $DIR/**/* 2>/dev/null | grep -vP '(:$|total|^$|^d)' | tail -n 4 | sort -k 5
+	ls -1lSr $DIR/**/* 2>/dev/null | grep -vE ':$|total|^$|^d' | tail -n 4 | sort -k 5
 	echo -e "----------------------------------------------------"
 	
-	grep -ni "Ta"  $DIR/claydol3
+	grep -ni "Ta" $DIR/claydol3
 fi
 
 if [[ $MODE == 5 ]]; then
-	chmod 777 $DIR/whiscash9 $DIR/kricketot2/psyduck $DIR/kricketot2/psyduckclayd* $DIR/dragonair6/excadrilllillip* $DIR/dragonair6/* $DIR/dragonair6/  $DIR/drowzee7/chimchar
+	chmod 700 $DIR/whiscash9 $DIR/kricketot2/psyduck $DIR/kricketot2/psyduckclayd* $DIR/dragonair6/  $DIR/drowzee7/chimchar
+	chmod 700 $DIR/dragonair6/excadrilllillip* $DIR/dragonair6/*
 	rm $DIR/whiscash9
 	rm $DIR/kricketot2/psyduck
 	rm $DIR/kricketot2/psyduckclayd*

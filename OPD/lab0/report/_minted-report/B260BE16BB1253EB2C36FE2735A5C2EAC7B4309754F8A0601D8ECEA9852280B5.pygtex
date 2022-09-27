@@ -1,0 +1,24 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nv}{DIR}\PYG{o}{=}\PYG{l+s+sb}{`}\PYG{n+nb}{pwd}\PYG{l+s+sb}{`}/lab0
+
+
+\PYG{c+c1}{\PYGZsh{} Create directory tree}
+mkdir \PYGZhy{}p \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/espeon \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/zoroark 
+mkdir \PYGZhy{}p \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/dwebble \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/shellos
+mkdir \PYGZhy{}p \PYG{n+nv}{\PYGZdl{}DIR}/drowzee7/chimchar \PYG{n+nv}{\PYGZdl{}DIR}/drowzee7/drifblim \PYG{n+nv}{\PYGZdl{}DIR}/drowzee7/charmander
+mkdir \PYGZhy{}p \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/metapod \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/spoink
+
+\PYG{c+c1}{\PYGZsh{} Create files}
+\PYG{n+nb}{echo} \PYG{l+s+s2}{\PYGZdq{}weigth=238.1 height=59.0 atk=7 def=11\PYGZdq{}} \PYGZgt{} \PYG{n+nv}{\PYGZdl{}DIR}/claydol3
+\PYG{n+nb}{echo} \PYGZhy{}e \PYG{l+s+s2}{\PYGZdq{}Ходы Drill\PYGZbs{}nRun Earth Power Iron Defence Iron\PYGZdq{}} \PYGZgt{} \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/excadrill
+\PYG{n+nb}{echo} \PYGZhy{}e \PYG{l+s+s2}{\PYGZdq{} Head Magnet Rise Sleep Talk Snore\PYGZbs{}nStealth Rock\PYGZdq{}} \PYGZgt{}\PYGZgt{} \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/excadrill
+\PYG{n+nb}{echo} \PYGZhy{}e \PYG{l+s+s2}{\PYGZdq{}weight=73.6 height=39.0 atk=8\PYGZbs{}ndef=5\PYGZdq{}} \PYGZgt{} \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/krokorok
+\PYG{n+nb}{echo} \PYGZhy{}e \PYG{l+s+s2}{\PYGZdq{}Развитые способности Analytic\PYGZdq{}} \PYGZgt{} \PYG{n+nv}{\PYGZdl{}DIR}/drowzee7/staryu
+\PYG{n+nb}{echo} \PYGZhy{}e \PYG{l+s+s2}{\PYGZdq{}Способности\PYGZbs{}nScratch Water Sport Tail Whip Water\PYGZdq{}} \PYGZgt{} \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/psyduck
+\PYG{n+nb}{echo} \PYGZhy{}e \PYG{l+s+s2}{\PYGZdq{} Gun Disable Confudion Water Pulse\PYGZbs{}nFury Swipes \PYGZdq{}} \PYGZgt{}\PYGZgt{} \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/psyduck
+\PYG{n+nb}{echo} \PYGZhy{}e \PYG{l+s+s2}{\PYGZdq{}Screech Zen Headbutt Aqua Tail Soak Psych\PYGZdq{}} \PYGZgt{}\PYGZgt{} \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/psyduck
+\PYG{n+nb}{echo} \PYGZhy{}e \PYG{l+s+s2}{\PYGZdq{} Up Amnesia Hydro\PYGZbs{}nPump Wonder Room\PYGZdq{}} \PYGZgt{}\PYGZgt{} \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/psyduck
+\PYG{n+nb}{echo} \PYG{l+s+s2}{\PYGZdq{}Тип диеты Omnivore\PYGZdq{}} \PYGZgt{} \PYG{n+nv}{\PYGZdl{}DIR}/lillipup9
+\PYG{n+nb}{echo} \PYGZhy{}e \PYG{l+s+s2}{\PYGZdq{}weigth=52.0\PYGZbs{}nheight=35.0 atk=8 def=7\PYGZdq{}} \PYGZgt{} \PYG{n+nv}{\PYGZdl{}DIR}/whiscash9
+
+\end{Verbatim}

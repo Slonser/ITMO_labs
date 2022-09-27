@@ -1,0 +1,1 @@
+chmod u=rw,g=w,o= $DIR/claydol3

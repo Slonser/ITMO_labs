@@ -1,0 +1,66 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} claydol3: rw\PYGZhy{}\PYGZhy{}w\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+chmod \PYG{n+nv}{u}\PYG{o}{=}rw,g\PYG{o}{=}w,o\PYG{o}{=} \PYG{n+nv}{\PYGZdl{}DIR}/claydol3
+
+\PYG{c+c1}{\PYGZsh{} dragonair6: владелец должен записывать директорию и переходить в нее; }
+\PYG{c+c1}{\PYGZsh{} группа\PYGZhy{}владелец должна только переходить в директорию;}
+\PYG{c+c1}{\PYGZsh{} остальные пользователи должны записывать директорию}
+chmod \PYG{l+m}{312} \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6
+
+\PYG{c+c1}{\PYGZsh{} espeon: владелец должен читать директорию и переходить в нее;}
+\PYG{c+c1}{\PYGZsh{} группа\PYGZhy{}владелец должна читать, записывать директорию и переходить в нее;}
+\PYG{c+c1}{\PYGZsh{} остальные пользователи должны записывать директорию и переходить в нее}
+chmod \PYG{l+m}{573} \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/espeon
+
+\PYG{c+c1}{\PYGZsh{} zoroark: права 771}
+chmod \PYG{l+m}{771} \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/zoroark
+
+\PYG{c+c1}{\PYGZsh{} dwebble: права 550}
+chmod \PYG{l+m}{550} \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/dwebble
+
+\PYG{c+c1}{\PYGZsh{} excadrill: rw\PYGZhy{}r\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+chmod \PYG{n+nv}{u}\PYG{o}{=}rw,g\PYG{o}{=}r,o\PYG{o}{=} \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/excadrill
+
+\PYG{c+c1}{\PYGZsh{} krokorok: права 660}
+chmod \PYG{l+m}{660} \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/krokorok
+
+\PYG{c+c1}{\PYGZsh{} shellos: \PYGZhy{}wx\PYGZhy{}wxr\PYGZhy{}x}
+chmod \PYG{l+m}{335} \PYG{n+nv}{\PYGZdl{}DIR}/dragonair6/shellos
+
+\PYG{c+c1}{\PYGZsh{} drowzee7: \PYGZhy{}wxrwx\PYGZhy{}wx}
+chmod \PYG{l+m}{373} \PYG{n+nv}{\PYGZdl{}DIR}/drowzee7
+
+\PYG{c+c1}{\PYGZsh{} chimchar: владелец должен читать директорию и переходить в нее;}
+\PYG{c+c1}{\PYGZsh{} группа\PYGZhy{}владелец должна только переходить в директорию;}
+\PYG{c+c1}{\PYGZsh{} остальные пользователи должны записывать директорию}
+chmod \PYG{l+m}{512} \PYG{n+nv}{\PYGZdl{}DIR}/drowzee7/chimchar
+
+\PYG{c+c1}{\PYGZsh{}drifblim: \PYGZhy{}wxrw\PYGZhy{}\PYGZhy{}\PYGZhy{}x}
+chmod \PYG{n+nv}{u}\PYG{o}{=}wx,g\PYG{o}{=}rw,o\PYG{o}{=}x \PYG{n+nv}{\PYGZdl{}DIR}/drowzee7/drifblim
+
+\PYG{c+c1}{\PYGZsh{} staryu: права 644}
+chmod \PYG{l+m}{644} \PYG{n+nv}{\PYGZdl{}DIR}/drowzee7/staryu
+
+\PYG{c+c1}{\PYGZsh{} charmander: \PYGZhy{}wx\PYGZhy{}wxr\PYGZhy{}x}
+chmod \PYG{l+m}{335} \PYG{n+nv}{\PYGZdl{}DIR}/drowzee7/charmander
+
+\PYG{c+c1}{\PYGZsh{} kricketot2: права 770}
+chmod \PYG{l+m}{770} \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2
+
+\PYG{c+c1}{\PYGZsh{} metapod: владелец должен читать директорию и переходить в нее;}
+\PYG{c+c1}{\PYGZsh{} группа\PYGZhy{}владелец должна читать, записывать директорию и переходить в нее;}
+\PYG{c+c1}{\PYGZsh{} остальные пользователи должны записывать директорию и переходить в нее}
+chmod \PYG{l+m}{573} \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/metapod
+
+\PYG{c+c1}{\PYGZsh{} psyduck: права 400}
+chmod \PYG{l+m}{400} \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/psyduck
+
+\PYG{c+c1}{\PYGZsh{} spoink: r\PYGZhy{}xrwxrwx}
+chmod \PYG{l+m}{577} \PYG{n+nv}{\PYGZdl{}DIR}/kricketot2/spoink
+
+\PYG{c+c1}{\PYGZsh{} lillipup9: права 400}
+chmod \PYG{l+m}{400} \PYG{n+nv}{\PYGZdl{}DIR}/lillipup9
+
+\PYG{c+c1}{\PYGZsh{} whiscash9: r\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}r\PYGZhy{}\PYGZhy{}}
+chmod \PYG{n+nv}{u}\PYG{o}{=}r,g\PYG{o}{=},o\PYG{o}{=}r \PYG{n+nv}{\PYGZdl{}DIR}/whiscash9
+\end{Verbatim}

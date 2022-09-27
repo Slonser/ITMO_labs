@@ -1,0 +1,29 @@
+total 32
+-rw--w----  1 s367299  studs   38 27 сент. 14:51 claydol3
+lrwxr-xr-x  1 s367299  studs   33 27 сент. 14:52 Copy_77 -> /home/studs/s367299/lab0/drowzee7
+d-wx--x-w-  6 s367299  studs    9 27 сент. 14:52 dragonair6
+d-wxrwx-wx  5 s367299  studs    7 27 сент. 14:52 drowzee7
+drwxrwx---  4 s367299  studs    6 27 сент. 14:52 kricketot2
+-r--------  2 s367299  studs   27 27 сент. 14:51 lillipup9
+-r-----r--  1 s367299  studs   36 27 сент. 14:51 whiscash9
+-rw-r--r--  1 s367299  studs  217 27 сент. 14:52 whiscash9_44
+
+./dragonair6:
+total 0
+
+./drowzee7:
+total 0
+
+./kricketot2:
+total 6
+dr-xrwx-wx  2 s367299  studs    2 27 сент. 14:51 metapod
+-r--------  1 s367299  studs  181 27 сент. 14:51 psyduck
+lrwxr-xr-x  1 s367299  studs   33 27 сент. 14:52 psyduckclaydol -> /home/studs/s367299/lab0/claydol3
+dr-xrwxrwx  2 s367299  studs    3 27 сент. 14:52 spoink
+
+./kricketot2/metapod:
+total 0
+
+./kricketot2/spoink:
+total 1
+-r-----r--  1 s367299  studs  36 27 сент. 14:52 whiscash9

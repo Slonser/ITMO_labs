@@ -1,0 +1,99 @@
+\documentclass[12pt,onecolumn]{article}
+
+\usepackage{listings}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage[russian]{babel}
+\everymath{\displaystyle}
+
+\usepackage[usenames]{color}
+\usepackage{colortbl}
+
+\usepackage{geometry}
+\usepackage{minted}
+\geometry{
+  a4paper,
+  top=15mm, 
+  right=10mm, 
+  bottom=15mm, 
+  left=10mm
+}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=sh,
+    aboveskip=3mm,
+      belowskip=3mm,
+        showstringspaces=false,
+	  columns=flexible,
+	    basicstyle={\small\ttfamily},
+	      numbers=none,
+	        numberstyle=\tiny\color{gray},
+		  keywordstyle=\color{blue},
+		    commentstyle=\color{dkgreen},
+		      stringstyle=\color{mauve},
+		        breaklines=true,
+			  breakatwhitespace=true,
+			    tabsize=3
+			    }
+\begin{document}
+
+\begin{center}
+    Федеральное государственное автономное образовательное учреждение высшего образования\\
+	«Национальный исследовательский университет ИТМО»
+\end{center}
+\vspace{1cm}
+
+
+\begin{center}
+    \large \textbf{Отчет}\\
+    \textbf{по лабораторной работе №1}\\
+    \large \textbf{«Основные команды ОС семейства UNIX»}\\
+     по дисциплине «Основы профессиональной деятельности»\\
+	\vspace{1cm}
+    Вариант №1806\\
+\end{center}
+
+\vspace{10cm}
+\begin{flushright}
+  Выполнил: Кокорин Всеволод Вячеславович, группа P3118\\
+  Преподаватель:Ткешелашвили Н.М.\\
+\end{flushright}
+
+\vspace{5cm}
+\begin{center}
+    г. Санкт-Петербург\\
+    2022г.
+\end{center}
+\newpage
+\tableofcontents
+\newpage
+\section{Задание 1}
+Создать приведенное в варианте дерево каталогов и файлов с содержимым. В качестве корня дерева использовать каталог lab0 своего домашнего каталога. Для создания и навигации по дереву использовать команды: mkdir, echo, cat, touch, ls, pwd, cd, more, cp, rm, rmdir, mv.\\ 
+\includegraphics[width=15cm]{img/1-1.png}
+\newpage
+\inputminted{sh}{code/1}
+\newpage
+\section{Задание 2}
+Установить согласно заданию права на файлы и каталоги при помощи команды chmod, используя различные способы указания прав.\\
+\inputminted{sh}{code/2.sh}
+\newpage
+\section{Задание 3}
+Скопировать часть дерева и создать ссылки внутри дерева согласно заданию при помощи команд cp и ln, а также комманды cat и перенаправления ввода-вывода.
+\inputminted{sh}{code/3.sh}
+\newpage
+\section{Итоговое дерево файлов, после выполнения 3 задания}
+\VerbatimInput{code/3r.txt}
+\newpage
+\section{Задание 4}
+\inputminted{sh}{code/4.sh}
+\newpage
+\section{Заданние 5}
+\inputminted{sh}{code/5.sh}
+\newpage
+\section{Вывод}
+По ходу выполнения работы,  я ознакомился со способами взаимодействия с OC UNIX, изучил основные команды, для листинга, фильтрации, создание/удаления файлов, назначения прав доступа.
+\end{document}
