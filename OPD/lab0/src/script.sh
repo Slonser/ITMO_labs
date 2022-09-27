@@ -10,9 +10,6 @@ else
 fi
 
 
-
-
-
 if [[ $MODE == 1 ]]; then
 # Create directory tree
 	mkdir -p $DIR/dragonair6/espeon $DIR/dragonair6/zoroark $DIR/dragonair6/dwebble $DIR/dragonair6/shellos
@@ -74,4 +71,33 @@ if [[ $MODE == 3 ]]; then
 	#Remove rights
 	chmod u-w $DIR/dragonair6/dwebble
 	chmod u-r $DIR/dragonair6/shellos
+fi
+
+if [[ $MODE == 4 ]]; then
+	cat $DIR/claydol3 | head -c -1 | wc -c >/tmp/abobus 2>/dev/null
+	echo -e "----------------------------------------------------"
+	
+	ls -1trR $DIR 2>/dev/null | grep "^c" | tail -n 2 
+	echo -e "----------------------------------------------------"
+	
+	grep -niRv "se" $DIR 2>/dev/null
+	echo -e "----------------------------------------------------"
+	
+	ls -Rla lab0/ 2>/dev/null | grep "9\$" |sort -k2r | head -n 3
+	echo -e "----------------------------------------------------"
+	
+	ls -1lSr $DIR/**/* 2>/dev/null | grep -vP '(:$|total|^$|^d)' | tail -n 4 | sort -k 5
+	echo -e "----------------------------------------------------"
+	
+	grep -ni "Ta"  $DIR/claydol3
+fi
+
+if [[ $MODE == 5 ]]; then
+	chmod 777 $DIR/whiscash9 $DIR/kricketot2/psyduck $DIR/kricketot2/psyduckclayd* $DIR/dragonair6/excadrilllillip* $DIR/dragonair6/* $DIR/dragonair6/  $DIR/drowzee7/chimchar
+	rm $DIR/whiscash9
+	rm $DIR/kricketot2/psyduck
+	rm $DIR/kricketot2/psyduckclayd*
+	rm $DIR/dragonair6/excadrilllillip*
+	rm -rf $DIR/dragonair6
+	rm -rf $DIR/drowzee7/chimchar
 fi
