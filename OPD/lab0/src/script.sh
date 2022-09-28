@@ -83,10 +83,10 @@ if [[ $MODE == 4 ]]; then
 	grep -niRv "se" $DIR 2>/dev/null
 	echo -e "----------------------------------------------------"
 	
-	ls -Rla lab0/ 2>/dev/null | grep "9\$" | grep -vE ':$|total|^$|^d' |sort -k2r | head -n 3
+	ls -Rla lab0/ 2>/dev/null | grep "9$" | grep -vE ':$|total|^$|^d' |sort -k2r | head -n 3
 	echo -e "----------------------------------------------------"
 	
-	ls -1lSr $DIR/**/* 2>/dev/null | grep -vE ':$|total|^$|^d' | tail -n 4 | sort -k 5
+	ls -1lSr $DIR/** 2>/dev/null | grep -vE ':$|total|^$|^d' | tail -n 4 | sort -k 5
 	echo -e "----------------------------------------------------"
 	
 	grep -ni "Ta" $DIR/claydol3
