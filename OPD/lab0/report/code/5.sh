@@ -1,5 +1,6 @@
 # Выдаем права для удаления
-chmod 700 $DIR/whiscash9 $DIR/kricketot2/psyduck $DIR/kricketot2/psyduckclayd* $DIR/dragonair6/  $DIR/drowzee7/chimchar
+chmod 700 $DIR/whiscash9 $DIR/kricketot2/psyduck 
+chmod 700 $DIR/kricketot2/psyduckclayd* $DIR/dragonair6/  $DIR/drowzee7/chimchar
 chmod 700 $DIR/dragonair6/excadrilllillip* $DIR/dragonair6/*
 
 # Удалить файл whiscash9
