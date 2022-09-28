@@ -74,7 +74,7 @@ if [[ $MODE == 3 ]]; then
 fi
 
 if [[ $MODE == 4 ]]; then
-	wc -c $DIR/claydol3  >/tmp/abobus 2>/dev/null
+	wc -m $DIR/claydol3  >/tmp/abobus 2>/dev/null
 	echo -e "----------------------------------------------------"
 	
 	ls -1trR $DIR 2>/dev/null | grep "^c" | tail -n 2 

@@ -1,7 +1,7 @@
 \begin{Verbatim}[commandchars=\\\{\}]
 \PYG{c+c1}{\PYGZsh{} Подсчитать количество символов содержимого файла claydol3, }
 \PYG{c+c1}{\PYGZsh{} результат записать в файл в директории /tmp, подавить вывод ошибок доступа}
-wc \PYGZhy{}c \PYG{n+nv}{\PYGZdl{}DIR}/claydol3  \PYGZgt{}/tmp/abobus \PYG{l+m}{2}\PYGZgt{}/dev/null
+wc \PYGZhy{}m \PYG{n+nv}{\PYGZdl{}DIR}/claydol3  \PYGZgt{}/tmp/abobus \PYG{l+m}{2}\PYGZgt{}/dev/null
 
 \PYG{c+c1}{\PYGZsh{} Вывести два последних элемента рекурсивного списка имен и атрибутов файлов в директории lab0,}
 \PYG{c+c1}{\PYGZsh{} начинающихся на символ \PYGZsq{}c\PYGZsq{},}
