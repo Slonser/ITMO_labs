@@ -77,13 +77,15 @@ if [[ $MODE == 4 ]]; then
 	wc -m $DIR/claydol3  >/tmp/abobus 2>/dev/null
 	echo -e "----------------------------------------------------"
 	
-	ls -1trR $DIR 2>/dev/null | grep "^c" | tail -n 2 
+	#ls -1trR $DIR 2>/dev/null | grep "^c" | tail -n 2 
+	ls -1latrR ./lab0/c* ./lab0/**/c* 2>/dev/null | tail -n 2
 	echo -e "----------------------------------------------------"
 	
 	grep -niRv "se" $DIR 2>/dev/null
 	echo -e "----------------------------------------------------"
 	
-	ls -Rla lab0/ 2>/dev/null | grep "9$" | grep -vE ':$|total|^$|^d' |sort -k2r | head -n 3
+	#ls -Rla lab0/ 2>/dev/null | grep "9$" | grep -vE ':$|total|^$|^d' |sort -k2r | head -n 3
+	ls -Rla lab0/*9 ./lab0/**/*9 | sort -k2r | head -n 3
 	echo -e "----------------------------------------------------"
 	
 	ls -1lSr $DIR/** 2>/dev/null | grep -vE ':$|total|^$|^d' | tail -n 4 | sort -k 5
