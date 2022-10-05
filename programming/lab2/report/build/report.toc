@@ -1,5 +1,6 @@
 \babel@toc {russian}{}\relax 
 \contentsline {section}{\numberline {1}Текст задания}{3}{}%
-\contentsline {section}{\numberline {2}Исходный код программы}{4}{}%
-\contentsline {section}{\numberline {3}Результат выполнения}{5}{}%
-\contentsline {section}{\numberline {4}Вывод}{6}{}%
+\contentsline {section}{\numberline {2}Диаграмма классов реализованной объектной модели}{4}{}%
+\contentsline {section}{\numberline {3}Исходный код программы}{5}{}%
+\contentsline {section}{\numberline {4}Результат выполнения}{6}{}%
+\contentsline {section}{\numberline {5}Вывод}{7}{}%
