@@ -1,0 +1,7 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Схема декодирования классического кода Хэмминга (7;4)}{3}{}%
+\contentsline {section}{\numberline {2}1 задача}{4}{}%
+\contentsline {section}{\numberline {3}Схема декодирования классического кода Хэмминга (15;11)}{5}{}%
+\contentsline {section}{\numberline {4}2 задача}{6}{}%
+\contentsline {section}{\numberline {5}Вывод}{7}{}%
+\contentsline {section}{\numberline {6}Список литературы}{8}{}%

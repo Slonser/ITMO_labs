@@ -1,0 +1,5 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Текст задания}{3}{}%
+\contentsline {section}{\numberline {2}Исходный код программы}{4}{}%
+\contentsline {section}{\numberline {3}Результат выполнения}{5}{}%
+\contentsline {section}{\numberline {4}Вывод}{6}{}%

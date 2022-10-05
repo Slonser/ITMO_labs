@@ -1,0 +1,131 @@
+\documentclass[12pt,onecolumn]{article}
+
+\usepackage{listings}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage[russian]{babel}
+\everymath{\displaystyle}
+
+\usepackage[usenames]{color}
+\usepackage{colortbl}
+
+\usepackage{geometry}
+\usepackage{minted}
+\geometry{
+  a4paper,
+  top=15mm, 
+  right=10mm, 
+  bottom=15mm, 
+  left=10mm
+}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=sh,
+    aboveskip=3mm,
+      belowskip=3mm,
+        showstringspaces=false,
+	  columns=flexible,
+	    basicstyle={\small\ttfamily},
+	      numbers=none,
+	        numberstyle=\tiny\color{gray},
+		  keywordstyle=\color{blue},
+		    commentstyle=\color{dkgreen},
+		      stringstyle=\color{mauve},
+		        breaklines=true,
+			  breakatwhitespace=true,
+			    tabsize=3
+			    }
+\begin{document}
+
+\begin{center}
+    Федеральное государственное автономное образовательное учреждение высшего образования\\
+	«Национальный исследовательский университет ИТМО»
+\end{center}
+\vspace{1cm}
+
+
+\begin{center}
+    \large \textbf{Отчет}\\
+    \textbf{по лабораторной работе №2}\\
+    \large \textbf{«Синтез помехоустойчивого кода»}\\
+     по дисциплине «Информатика»\\
+	\vspace{1cm}
+    Вариант №79\\
+\end{center}
+
+\vspace{10cm}
+\begin{flushright}
+  Выполнил: Кокорин Всеволод Вячеславович, группа P3118\\
+  Преподаватель: Рыбаков Степан Дмитриевич\\
+\end{flushright}
+
+\vspace{5cm}
+\begin{center}
+    г. Санкт-Петербург\\
+    2022г.
+\end{center}
+\newpage
+\tableofcontents
+\newpage
+\section{Схема декодирования классического кода Хэмминга (7;4)}
+\includegraphics[width=15cm]{img/img1.png}
+\newpage
+\section{1 задача}
+1. (63)  0110100 \\
+   Биты четности:\\
+   1. 0 = (0 + 1 + 1 + 0) \% 2 \\
+   2. 1 = (1 + 1 + 0 + 0) \% 2\\
+   4. 0 = (0 + 1 + 0 + 0) \% 2 (Неверно)  \\
+   4 бит передан неправильно. \\
+   1100 - переданное сообщение. \\ 
+\\
+\\
+2. (10) 1010000 \\
+   Биты четности: \\
+   1. 1 = (1 + 1 + 0 + 0) \% 2 (Неверно) \\
+   2. 0 = (0 + 1 + 0 + 0) \% 2 (Неверно) \\
+   4. 0 = (0 + 0 + 0 + 0) \% 2 \\
+   3 бит ( 1 + 2 ) переданн неправильно. \\
+   1000 - переданное сообщение. \\
+\\
+\\
+3. (35) 0111010 \\
+   Биты четности: \\
+   1. 0 = (0 + 1 + 0 + 0) \% 2 (Неверно)\\
+   2. 1 = (1 + 1 + 1 + 0) \% 2 \\ 
+   4. 1 = (1 + 0 + 1 + 0) \% 2 (Неверно) \\ 
+   4 бит переданн неверно.
+   0010 - переданное сообщение. \\
+\\
+\\
+4. (75) 0101101 \\
+   Биты четности: \\
+   1. 0 = (0 + 0 + 1 + 1) \% 2 \\
+   2. 1 = (1 + 0 + 0 + 1) \% 2 (Неверно)  \\
+   4. 1 = (1 + 1 + 0 + 1) \% 2 \\
+   2 бит передан неправильно. \\
+   0101 - переданное сообщение. \\
+\newpage
+\section{Схема декодирования классического кода Хэмминга (15;11)}
+\includegraphics[width=15cm]{img/img2.png}
+\newpage
+\section{2 задача}
+(75) 001110010110100 \\
+   1. 0 = (0 + 1 + 1 + 0 + 0 + 1 + 1 + 0) \% 2\\
+   2. 0 = (0 + 1 + 0 + 0 + 1 + 1 + 1 + 0) \% 2\\
+   4. 1 = (1 + 1 + 0 + 0 + 1 + 0 + 0 + 0) \% 2 \\
+   8. 1 = (1 + 0 + 1 + 1 + 0 + 1 + 0 + 0) \% 2 (Неверно) \\ 
+   11100110100 - переданное сообщение.
+\newpage
+\section{Вывод}
+По ходу выполнения данной работы, я узнал про помехоустойчивые коды, научился кодировать и декодировать сообщения с помощью кода Хэмминга.
+\newpage
+\section{Список литературы}
+"Код Хэмминга. Пример работы алгоритма" \textbf{[Электронный ресурс].} - Текст: электронный // habr.com – URL: https://habr.com/ru/post/140611/ \\
+"Помехоустойчивое кодирование с иcпользованием различных кодов" \textbf{[Электронный ресурс].} - Текст: электронный // habr.com – URL: https://habr.com/ru/post/111336/ \\
+"Помехоустойчивое кодирование. Часть 1: код Хэмминга" \textbf{[Электронный ресурс].} - Текст: электронный // habr.com – URL: https://habr.com/ru/post/357666/
+\end{document}
