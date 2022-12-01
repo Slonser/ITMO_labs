@@ -1,0 +1,17 @@
+def task3(file="out.json"):
+    import re
+    from dict2xml import dict2xml
+
+    example = {'pair_id': 2460032073, 'subject': 'Дискретная математика (базовый уровень)', 'subject_id': 43649, 'note': "", 'type': 'Практические занятия', 'time_start': '10:00', 'time_end': '11:30', 'teacher_id': 100054, 'teacher_name': 'Поляков Владимир Иванович', 'room': '1324 (бывш. 369а)', 'building': 'Кронверкский пр., д.49, лит.А', 'format': 'Очно - дистанционный ', 'work_type': 'Практические занятия', 'work_type_id': 3, 'group': 'ДМ БАЗ 3.5', 'flow_type_id': 2, 'flow_id': 19987, 'zoom_url': "", 'zoom_password': "", 'zoom_info': "", 'bld_id': 13, 'format_id': 2, 'main_bld_id': 13}
+    data = []
+    with open(file) as json:
+        value = json.read().replace("null",'""')
+        lessons_count = value.count("pair_id")
+        for i in range(lessons_count):
+            data.append({})
+            for key in example:
+                if isinstance(example[key],str):
+                    data[-1][key] = eval(list(re.finditer(f'"{key}":\s*("[^"]*")',value))[i].group(1),{'__builtins__': {}})
+                if isinstance(example[key],int):
+                    data[-1][key] = eval(list(re.finditer('"'+key+'":\s*([^,\}]+)[\},]',value))[i].group(1),{'__builtins__': {}})
+    return dict2xml(data)

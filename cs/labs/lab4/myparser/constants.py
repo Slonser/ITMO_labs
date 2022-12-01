@@ -1,0 +1,12 @@
+COMMA = ','
+COLON = ':'
+LEFTBRACKET = '['
+RIGHTBRACKET = ']'
+LEFTBRACE = '{'
+RIGHTBRACE = '}'
+QUOTE = '"'
+SYNTAX = [COMMA, COLON, LEFTBRACKET, RIGHTBRACKET,
+              LEFTBRACE, RIGHTBRACE]
+FALSE_LEN = len('false')
+TRUE_LEN = len('true')
+NULL_LEN = len('null')

@@ -1,0 +1,5 @@
+def task2(file="out.json"):
+    from dict2xml import dict2xml
+    from json import loads
+    with open(file) as j:
+        return dict2xml(loads(j.read()))

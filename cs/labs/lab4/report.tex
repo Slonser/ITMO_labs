@@ -1,0 +1,113 @@
+\documentclass[12pt,onecolumn]{article}
+
+\usepackage{listings}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage[russian]{babel}
+\everymath{\displaystyle}
+
+\usepackage[usenames]{color}
+\usepackage{colortbl}
+
+\usepackage{geometry}
+\usepackage{minted}
+\geometry{
+  a4paper,
+  top=15mm, 
+  right=10mm, 
+  bottom=15mm, 
+  left=10mm
+}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=sh,
+    aboveskip=3mm,
+      belowskip=3mm,
+        showstringspaces=false,
+	  columns=flexible,
+	    basicstyle={\small\ttfamily},
+	      numbers=none,
+	        numberstyle=\tiny\color{gray},
+		  keywordstyle=\color{blue},
+		    commentstyle=\color{dkgreen},
+		      stringstyle=\color{mauve},
+		        breaklines=true,
+			  breakatwhitespace=true,
+			    tabsize=3
+			    }
+\begin{document}
+
+\begin{center}
+    Федеральное государственное автономное образовательное учреждение высшего образования\\
+	«Национальный исследовательский университет ИТМО»
+\end{center}
+\vspace{1cm}
+\setcounter{page}{0} 
+\begin{center}
+    \large \textbf{Отчет}\\
+    \textbf{по лабораторной работе №4}\\
+    \large \textbf{«Исследование протоколов, форматов обмена информацией и языков разметки документов»}\\
+     по дисциплине «Информатика»\\
+	\vspace{1cm}
+    Вариант №6\\
+\end{center}
+
+\vspace{10cm}
+\begin{flushright}
+  Выполнил: Кокорин Всеволод Вячеславович, группа P3118\\
+  Преподаватель: Рыбаков Степан Дмитриевич\\
+\end{flushright}
+
+\vspace{5cm}
+\begin{center}
+    г. Санкт-Петербург\\
+    2022г.
+\end{center}
+\thispagestyle{empty}
+\newpage
+\tableofcontents
+\newpage
+\section{Задание 1}
+Написать программу на языке Python 3.x, которая бы осуществляла парсинг и конвертацию исходного файла в новый. \\
+Решение: \\
+https://github.com/Slonser/ITMO\_labs/tree/main/cs/labs/lab4/myparser
+\newpage
+\section{Задание 2}
+a) Найти готовые библиотеки, осуществляющие аналогичный парсинг и конвертацию файлов. \\
+b) Переписать исходный код, применив найденные библиотеки. Регулярные выражения также нельзя использовать. \\
+c) Сравнить полученные результаты и объяснить их сходство/различие. \\
+\inputminted{python}{trash/1}
+Различия:\\
+- Форматирование \\
+- Формат представление массива \\
+\newpage
+\section{Задание 3}
+a) Переписать исходный код, добавив в него использование регулярных выражений. \\
+b) Сравнить полученные результаты и объяснить их сходство/различие. \\
+Различия между данным решением и первым отсутсвуют \\
+\inputminted{python}{trash/2}
+\newpage 
+\section{Задание 4}
+a) Используя свою исходную программу из обязательного задания, программу из дополнительного задания No1 и программу из дополнительного задания No2, сравнить стократное время выполнения парсинга + конвертации в цикле. \\
+b) Проанализировать полученные результаты и объяснить их сходство/различие. \\
+Свое - 0.0011454529099864884 \\
+Библиотеки - 0.000519692079978995 \\
+Регулярные выражения - 0.0013138183404225855 \\
+Библиотечная реализация работает быстрее всего из-за более грамотной реализации лексера, а так же нерекурсивного построения дерева xml \\
+Решение через регулярные выражения самое медленное из-за многократного построения деревьев регулярного выражения
+\newpage 
+\section{Задание 5}
+c) Переписать исходную программу, чтобы она осуществляла парсинг и конвертацию исходного файла в любой другой формат (кроме JSON, YAML, XML, HTML): PROTOBUF, TSV, CSV, WML и т.п. \\
+\inputminted{python}{trash/3}
+\newpage 
+\section{Вывод}
+По ходу выполнения данной лабораторной работы, я узнал о форматах представления данных (JSON,XML,CSV), а так же научился парсить данные форматы, как с помощью готовых решений, так и самостоятельно. 
+\newpage 
+\section{Список литературы}
+- Лямин А.В., Череповская Е.Н. Объектно-ориентированное программирование. Компьютерный практикум. – СПб: Университет ИТМО, 2017. – 143 с. – Режим доступа: https://books.ifmo.ru/file/pdf/2256.pdf.
+- Пишем изящный парсер на Питоне - Режим доступа: https://habr.com/en/post/309242/
+\end{document}

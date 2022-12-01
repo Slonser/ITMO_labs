@@ -1,0 +1,310 @@
+<day_number>
+	2
+</day_number>
+<week_number>
+	14
+</week_number>
+<date>
+	2022-11-29
+</date>
+<note>
+	
+</note>
+<type>
+	
+</type>
+<lessons>
+		<element>
+				<pair_id>
+			2460032073
+		</pair_id>
+		<subject>
+			Дискретная математика (базовый уровень)
+		</subject>
+		<subject_id>
+			43649
+		</subject_id>
+		<note>
+			
+		</note>
+		<type>
+			Практические занятия
+		</type>
+		<time_start>
+			10:00
+		</time_start>
+		<time_end>
+			11:30
+		</time_end>
+		<teacher_id>
+			100054
+		</teacher_id>
+		<teacher_name>
+			Поляков Владимир Иванович
+		</teacher_name>
+		<room>
+			1324 (бывш. 369а)
+		</room>
+		<building>
+			Кронверкский пр., д.49, лит.А
+		</building>
+		<format>
+			Очно - дистанционный 
+		</format>
+		<work_type>
+			Практические занятия
+		</work_type>
+		<work_type_id>
+			3
+		</work_type_id>
+		<group>
+			ДМ БАЗ 3.5
+		</group>
+		<flow_type_id>
+			2
+		</flow_type_id>
+		<flow_id>
+			19987
+		</flow_id>
+		<zoom_url>
+			
+		</zoom_url>
+		<zoom_password>
+			
+		</zoom_password>
+		<zoom_info>
+			
+		</zoom_info>
+		<bld_id>
+			13
+		</bld_id>
+		<format_id>
+			2
+		</format_id>
+		<main_bld_id>
+			13
+		</main_bld_id>
+
+	</element>
+	<element>
+				<pair_id>
+			2460032185
+		</pair_id>
+		<subject>
+			Дискретная математика (базовый уровень)
+		</subject>
+		<subject_id>
+			43649
+		</subject_id>
+		<note>
+			
+		</note>
+		<type>
+			Практические занятия
+		</type>
+		<time_start>
+			11:40
+		</time_start>
+		<time_end>
+			13:10
+		</time_end>
+		<teacher_id>
+			100054
+		</teacher_id>
+		<teacher_name>
+			Поляков Владимир Иванович
+		</teacher_name>
+		<room>
+			1324 (бывш. 369а)
+		</room>
+		<building>
+			Кронверкский пр., д.49, лит.А
+		</building>
+		<format>
+			Очно - дистанционный 
+		</format>
+		<work_type>
+			Практические занятия
+		</work_type>
+		<work_type_id>
+			3
+		</work_type_id>
+		<group>
+			ДМ БАЗ 3.5
+		</group>
+		<flow_type_id>
+			2
+		</flow_type_id>
+		<flow_id>
+			19987
+		</flow_id>
+		<zoom_url>
+			
+		</zoom_url>
+		<zoom_password>
+			
+		</zoom_password>
+		<zoom_info>
+			
+		</zoom_info>
+		<bld_id>
+			13
+		</bld_id>
+		<format_id>
+			2
+		</format_id>
+		<main_bld_id>
+			13
+		</main_bld_id>
+
+	</element>
+	<element>
+				<pair_id>
+			3497468624
+		</pair_id>
+		<subject>
+			Иностранный язык
+		</subject>
+		<subject_id>
+			25373
+		</subject_id>
+		<note>
+			
+		</note>
+		<type>
+			Практические занятия
+		</type>
+		<time_start>
+			15:20
+		</time_start>
+		<time_end>
+			16:50
+		</time_end>
+		<teacher_id>
+			287124
+		</teacher_id>
+		<teacher_name>
+			Калинникова Лидия Николаевна
+		</teacher_name>
+		<room>
+			3228
+		</room>
+		<building>
+			ул.Ломоносова, д.9, лит. Е
+		</building>
+		<format>
+			Очно - дистанционный 
+		</format>
+		<work_type>
+			Практические занятия
+		</work_type>
+		<work_type_id>
+			3
+		</work_type_id>
+		<group>
+			АЯ-B1.2/49
+		</group>
+		<flow_type_id>
+			2
+		</flow_type_id>
+		<flow_id>
+			20845
+		</flow_id>
+		<zoom_url>
+			
+		</zoom_url>
+		<zoom_password>
+			
+		</zoom_password>
+		<zoom_info>
+			
+		</zoom_info>
+		<bld_id>
+			35
+		</bld_id>
+		<format_id>
+			2
+		</format_id>
+		<main_bld_id>
+			273
+		</main_bld_id>
+
+	</element>
+	<element>
+				<pair_id>
+			3497469024
+		</pair_id>
+		<subject>
+			Иностранный язык
+		</subject>
+		<subject_id>
+			25373
+		</subject_id>
+		<note>
+			
+		</note>
+		<type>
+			Практические занятия
+		</type>
+		<time_start>
+			17:00
+		</time_start>
+		<time_end>
+			18:30
+		</time_end>
+		<teacher_id>
+			287124
+		</teacher_id>
+		<teacher_name>
+			Калинникова Лидия Николаевна
+		</teacher_name>
+		<room>
+			3228
+		</room>
+		<building>
+			ул.Ломоносова, д.9, лит. Е
+		</building>
+		<format>
+			Очно - дистанционный 
+		</format>
+		<work_type>
+			Практические занятия
+		</work_type>
+		<work_type_id>
+			3
+		</work_type_id>
+		<group>
+			АЯ-B1.2/49
+		</group>
+		<flow_type_id>
+			2
+		</flow_type_id>
+		<flow_id>
+			20845
+		</flow_id>
+		<zoom_url>
+			
+		</zoom_url>
+		<zoom_password>
+			
+		</zoom_password>
+		<zoom_info>
+			
+		</zoom_info>
+		<bld_id>
+			35
+		</bld_id>
+		<format_id>
+			2
+		</format_id>
+		<main_bld_id>
+			273
+		</main_bld_id>
+
+	</element>
+
+</lessons>
+<intersections>
+	
+</intersections>
+

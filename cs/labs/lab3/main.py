@@ -37,11 +37,11 @@ def task1(text: str) -> int:
 
 def task2(text: str) -> List[str]:
     pattern = re.compile(
-        "([А-ЯЁA-Z][а-яёa-z]+(\\-[А-ЯЁA-Z][а-яёa-z]+)*) [А-ЯЁA-Z]\\.(\\-[А-ЯЁA-Z]\\.)*[А-ЯЁA-Z]\\.(\\-[А-ЯЁA-Z]\\.)*"
+        "\\b([А-ЯЁA-Z][а-яёa-z]+(\\-[А-ЯЁA-Z][а-яёa-z]+)*) [А-ЯЁA-Z]\\.(\\-[А-ЯЁA-Z]\\.)*[А-ЯЁA-Z]\\.(\\-[А-ЯЁA-Z]\\.)*"
     )
     res = pattern.findall(text)
     res = [match.group(1) for match in pattern.finditer(text)]
-    return res
+    return sorted(res)
 
 
 def task3(args: ThirdTaskArgType) -> List[str]:
