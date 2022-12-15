@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.11.23)  1 DEC 2022 09:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.11.23)  15 DEC 2022 08:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -558,12 +558,13 @@ ap/pdftex.map}] (./report.toc)
 \openout3 = `report.toc'.
 
  [2] [3]
-<diagram.jpg, id=17, 1284.8pt x 908.39375pt>
-File: diagram.jpg Graphic file (type jpg)
-<use diagram.jpg>
-Package pdftex.def Info: diagram.jpg  used on input line 58.
-(pdftex.def)             Requested size: 540.60239pt x 382.22969pt.
- [4 <./diagram.jpg>] [5]
+<diagram.png, id=17, 4936.4425pt x 3830.31pt>
+File: diagram.png Graphic file (type png)
+<use diagram.png>
+Package pdftex.def Info: diagram.png  used on input line 58.
+(pdftex.def)             Requested size: 540.60239pt x 419.46515pt.
+ [4 <./diagram.png (PNG copy)>]
+[5]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
 64.
 
@@ -591,7 +592,7 @@ blic/cm-super/sfbx1728.pfb></opt/homebrew/Cellar/texlive/20220321_3/share/texmf
 220321_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></opt/homebr
 ew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/type1/public/cm-super/sftt1
 200.pfb>
-Output written on report.pdf (7 pages, 254907 bytes).
+Output written on report.pdf (7 pages, 778667 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
